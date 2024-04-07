@@ -1,0 +1,3 @@
+class MontgomeryMultiplication:
+    multiplicand = []
+    multiplier = []

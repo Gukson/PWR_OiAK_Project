@@ -1,0 +1,3 @@
+class ClassicMultiplication:
+    multiplicand = []
+    multiplier = []
