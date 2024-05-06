@@ -3,7 +3,7 @@ class ClassicMultiplication:
     multiplier = []
 
 
-def multiply(multiplicand, multiplier):
+def sos_multiply(multiplicand, multiplier):
     multiplicand_digits = [int(digit) for digit in str(multiplicand)]
 
     multiplier_digits = [int(digit) for digit in str(multiplier)]
@@ -17,3 +17,4 @@ def multiply(multiplicand, multiplier):
             results[i + j + 1] %= 10
 
     return int(''.join(map(str, results)))
+
