@@ -1,6 +1,5 @@
 import random
 
-
 def generate_numbers(amount, file_path):
     with open(file_path, 'w') as file:
         for _ in range(amount):
